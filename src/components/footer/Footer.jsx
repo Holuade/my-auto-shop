@@ -24,10 +24,10 @@ const Footer = () => {
               <i className="fas fa-car"></i> Workshop
             </h3>
             <p>
-              <i className="fas fa-map-marker-alt"></i> 123 Main Street, Ibadan
+              <i className="fas fa-map-marker-alt"></i> Restaurant Bus-stop, 4 Wahab  Ashafa Street, Langbasa Rd, Ajah, Lagos 106104, Lagos.
             </p>
             <p>
-              <i className="fas fa-phone"></i> +234 905 605 3834
+              <i className="fas fa-phone"></i> +234 803 943 9574
             </p>
             <p>
               <i className="fas fa-envelope"></i> info@bodyshop.com
