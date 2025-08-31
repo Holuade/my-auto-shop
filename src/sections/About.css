@@ -1,0 +1,90 @@
+.about {
+  padding: 4rem 2rem;
+  background: #f9f9f9;
+}
+
+.about-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  align-items: center;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.about-image img {
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+}
+
+.about-content h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: #222;
+}
+
+.about-content p {
+  font-size: 1rem;
+  line-height: 1.6;
+  margin-bottom: 1rem;
+  color: #444;
+}
+
+.about-content span {
+  color: #1b1b32; /* brand highlight color */
+  font-weight: 600;
+}
+
+.about-btn {
+  background: #1b1b32;
+  color: #fff;
+  padding: 0.8rem 1.5rem;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.about-btn:hover {
+  background: #efff;
+  color: #1b1b32;
+}
+
+
+@media (max-width: 768px) {
+  .about {
+    padding: 3rem 1.5rem;
+  }
+
+  .about-content {
+    text-align: center;
+  }
+
+  .about-content h2 {
+    font-size: 1.8rem;
+  }
+
+  .about-content p {
+    font-size: 0.95rem;
+  }
+
+  .about-btn {
+    margin-top: 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .about {
+    padding: 2.5rem 1rem;
+  }
+
+  .about-content h2 {
+    font-size: 1.5rem;
+  }
+
+  .about-content p {
+    font-size: 0.9rem;
+  }
+}
